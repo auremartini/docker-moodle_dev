@@ -1,0 +1,7 @@
+a:4:{s:18:"allowedsourceslist";s:16:"Fonti consentite";s:22:"allowedsourceslistdesc";s:400:"Elenco delle fonti da dove l'utente potrà incorporare contenuto H5P. In assenza di valorizzazioni gli URL saranno visualizzati come collegamenti senza incorporare il contenuto H5P.
+
+'[id]' è un segnaposto per il contenuto H5P disponibile dalla fonte esterna.
+Ad esempio:
+
+- H5P.com: https://[xxxxxx].h5p.com/content/[id]
+- Wordpress: http://myserver/wp-admin/admin-ajax.php?action=h5p_embed&id=[id]";s:10:"filtername";s:19:"Visualizzazione H5P";s:16:"privacy:metadata";s:43:"Il filtro H5P non memorizza dati personali.";}

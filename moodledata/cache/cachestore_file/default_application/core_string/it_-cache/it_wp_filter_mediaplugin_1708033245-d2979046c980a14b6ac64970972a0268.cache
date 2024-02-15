@@ -1,0 +1,3 @@
+a:5:{s:13:"fallbackaudio";s:10:"Link audio";s:13:"fallbackvideo";s:10:"Link video";s:10:"filtername";s:19:"Plugin multimediali";s:11:"linktomedia";s:303:"Il filtro plugin multimedili individua nel testo i link che puntano a risorse multimediali e li sostituisce con l'appropriato riproduttore multimediale. Il filtro sostituisce anche i tag &lt;video&gt; e &lt;audio&gt; con i riproduttori audio e video selezionati.
+
+<a href="{$a}">Manage media players</a>";s:16:"privacy:metadata";s:61:"Il plugin "Plugin multimediali" non memorizza dati personali.";}

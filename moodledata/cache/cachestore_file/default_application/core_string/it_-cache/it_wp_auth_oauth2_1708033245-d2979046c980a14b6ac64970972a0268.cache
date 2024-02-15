@@ -1,0 +1,36 @@
+a:51:{s:13:"accountexists";s:188:"Un utente con questo username è già esistente. Se è un tuo account, accedi digitando i tuoi username e password e aggiungilo come autenticazione collegata nella pagina delle preferenze.";s:22:"auth_oauth2description";s:44:"Autenticazione basata sullo standard OAuth 2";s:19:"auth_oauth2settings";s:35:"Impostazioni autenticazione OAuth 2";s:19:"confirmaccountemail";s:525:"Gentile {$a->fullname},
+
+è stata richiesta la creazione di un nuovo account su '{$a->sitename}' che utilizza il tuo indirizzo di posta elettronica.
+
+Per confermare l'account, devi cliccare sul link seguente:
+
+{$a->link}
+
+Nella maggior parte dei programmi di posta il link apparirà colorato di blu ed è sufficiente cliccarlo. Se il link non dovesse essere attivo, copia e incolla il link nella barra dell'indirizzo del browser e premi il tasto invio.
+
+Se hai bisogno di aiuto contatta l'amministratore del sito,
+{$a->admin}";s:26:"confirmaccountemailsubject";s:22:"{$a}: conferma account";s:19:"confirmationinvalid";s:145:"Il link di conferma è scaduto o non è valido. Per generare una nuova email di conferma devi ricominciare daccapo il processo di autenticazione.";s:19:"confirmationpending";s:35:"Account in attesa di conferma email";s:23:"confirmlinkedloginemail";s:788:"Gentile {$a->fullname},
+
+è stato richiesto di collegare l'autenticazione di '{$a->issuername}' {$a->linkedemail} con il tuo account su {$a->sitename}' utilizzando il tuo indirizzo di posta elettronica.
+
+Per confermare la richiesta e collegare le autenticazioni, devi cliccare sul link seguente:
+
+{$a->link}
+
+Nella maggior parte dei programmi di posta il link apparirà colorato di blu ed è sufficiente cliccarlo. Se il link non dovesse essere attivo, copia e incolla il link nella barra dell'indirizzo del browser e premi il tasto invio.
+
+Se hai bisogno di aiuto contatta l'amministratore del sito,
+{$a->admin}
+
+Se non hai richiesto tu il collegamento, allora è possibile che qualcuno stia tentando di compromettere il tuo account. Per favore contatta subito l'amministratore del sito.";s:30:"confirmlinkedloginemailsubject";s:42:"{$a}: Conferma collegamento autenticazioni";s:21:"createaccountswarning";s:193:"Plugin di autenticazione che consente di creare account sul sito. È possibile abilitare l'impostazione "Evita la creazione di account all'atto dell'autenticazione" quando si utilizza il plugin";s:20:"createnewlinkedlogin";s:31:"Collega un nuovo account ({$a})";s:16:"emailconfirmlink";s:22:"Collega i tuoi account";s:20:"emailconfirmlinksent";s:385:"<p>È stato trovato un account con questo indirizzo email che non è stato ancora collegato.</p>
+   <p>Gli account devono essere collegati prima che tu possa autenticarti.</p>
+   <p>Una mail dovrebbe essere stata spedita al tuo indirizzo <b>{$a}</b>.</p>
+   <p>Contiene istruzioni per collegare i tuoi account.</p>
+   <p>Se incontri difficoltà, contatta l'amministratore del sito.</p>";s:23:"emailpasswordchangeinfo";s:352:"Gentile {$a->firstname},
+
+è stata richiesta una nuova password per l'account '{$a->username}' su '{$a->sitename}'.
+
+Purtroppo la password non può essere reimpostata perché per autenticati utilizzi un account di un altro sito.
+
+Per favore autenticati come in precedenza utilizzando il collegamento presente nella pagina di autenticazione.
+{$a->admin}";s:30:"emailpasswordchangeinfosubject";s:38:"{$a}: Informazioni sul cambio password";s:4:"info";s:15:"Account esterno";s:6:"issuer";s:16:"Servizio OAuth 2";s:13:"issuernologin";s:58:"Questo issuer non può essere utilizzato per autenticarsi.";s:3:"key";s:6:"Chiave";s:12:"linkedlogins";s:24:"Autenticazioni collegate";s:16:"linkedloginshelp";s:33:"Aiuto su Autenticazioni collegate";s:8:"loggedin";s:46:"Utente autenticato correttamente col provider.";s:25:"loginerror_userincomplete";s:125:"Non sono stati ricevuti lo username e l'email dell'utente. Probabilmente il servizio OAuth2 non è configurato correttamente.";s:21:"loginerror_nouserinfo";s:116:"Non sono state ricevute informazioni sull'utente. Probabilmente il servizio OAuth2 non è configurato correttamente.";s:24:"loginerror_invaliddomain";s:37:"L'indirizzo email non è autorizzato.";s:31:"loginerror_authenticationfailed";s:56:"Il processo di autenticazione non è andato a buon fine.";s:31:"loginerror_cannotcreateaccounts";s:72:"Non è stato possibile individuare un account con il tuo indirizzo email";s:16:"noconfiguredidps";s:40:"Non ci sono provider Oauth2 configurati.";s:18:"noissuersavailable";s:98:"Nessun servizio OAuth 2 tra quelli configurati consente di collegare account per l'autenticazione.";s:16:"notloggedindebug";s:56:"L'autenticazione non è andata a buon fine. Motivo: {$a}";s:18:"notwhileloggedinas";s:91:"Non è possibile gestire autenticazioni collegate quando si è collegati come altro utente.";s:25:"oauth2:managelinkedlogins";s:40:"Gestire proprie autenticazioni collegate";s:10:"notenabled";s:69:"Siamo spiacenti, il plugin di autenticazione OAuth 2 non è abilitato";s:17:"plugindescription";s:203:"Il plugin di autenticazione visualizza nella pagina di login un elenco di identity provider. L'utente potrà selezionare l'identity provider opportuno per autenticarsi con le proprie credenziali OAuth 2.";s:10:"pluginname";s:7:"OAuth 2";s:13:"alreadylinked";s:58:"L'account esterno è già collegato ad un account del sito";s:28:"privacy:metadata:auth_oauth2";s:22:"Autenticazione OAuth 2";s:42:"privacy:metadata:auth_oauth2:authsubsystem";s:57:"Il plugin è collegato al sottosistema di autenticazione.";s:41:"privacy:metadata:auth_oauth2:confirmtoken";s:17:"Token di conferma";s:48:"privacy:metadata:auth_oauth2:confirmtokenexpires";s:61:"Marca temporale che indica la scadenza del token di conferma.";s:34:"privacy:metadata:auth_oauth2:email";s:38:"Email esterna che rimanda all'account.";s:37:"privacy:metadata:auth_oauth2:issuerid";s:40:"ID OAuth 2 fornito per l'autenticazione.";s:45:"privacy:metadata:auth_oauth2:tableexplanation";s:57:"Account OAuth 2 collegati all'account Moodle dell'utente.";s:40:"privacy:metadata:auth_oauth2:timecreated";s:92:"Marca temporale che indica quando l'account dell'utente è stato collegato al login OAuth 2.";s:41:"privacy:metadata:auth_oauth2:timemodified";s:64:"Marca temporale che indica quando è stato modificato il record.";s:35:"privacy:metadata:auth_oauth2:userid";s:59:"ID dell'account utente a cui è collegato il login OAuth 2.";s:41:"privacy:metadata:auth_oauth2:usermodified";s:42:"ID dell'utente che ha modificato l'account";s:37:"privacy:metadata:auth_oauth2:username";s:41:"Username esterno che rimanda all'account.";s:12:"testidplogin";s:24:"Test autenticazione con:";s:8:"userinfo";s:36:"Dati utenti provenienti dal provider";s:5:"value";s:6:"Valore";}

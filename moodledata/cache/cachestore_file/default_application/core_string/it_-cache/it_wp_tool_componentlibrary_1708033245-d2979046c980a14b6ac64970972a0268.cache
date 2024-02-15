@@ -1,0 +1,9 @@
+a:13:{s:6:"copied";s:8:"Copiato!";s:4:"copy";s:5:"Copia";s:15:"copytoclipboard";s:19:"Copia negli appunti";s:9:"installer";s:744:"<h3>Impostazione libreria dei componenti</h3>
+<p>Prima di poter visualizzare il contenuto della libreria di componenti si deve accedere via shell alla installazione di Moodle ed essere in grado di scrivere nella cartella /admin/tool/componentlibrary e avere npm installato sul server che ospita Moodle.</p>
+<p>Se i requisiti sono soddisfatti, è possibile  accedere alla cartella principale di Moodle ed eseguire:</p>
+<pre>$ npm install</pre>
+ <pre>$ npm install grunt</pre>
+<p>I comandi recupereranno i pacchetti necessari per creare i documenti della libreria dei componenti.</p>
+<p>Una volta installati i pacchetti, eseguire:</p>
+<pre>$ grunt componentlibrary</pre>
+ <p>Per maggiori informazioni vedere il file README.md di questo plugin</p>";s:10:"pluginname";s:22:"Componente libreria UI";s:16:"privacy:metadata";s:69:"Il plugin della libreria dei componenti non memorizza dati personali.";s:8:"runjsdoc";s:125:"La documentazione JavaScript viene generata separatamente dalla libreria dei componenti. Per generarla eseguire `grunt jsdoc`";s:8:"showboth";s:23:"Visualizza con entrambi";s:11:"showdefault";s:18:"Visualizza default";s:8:"showhelp";s:20:"Visualizza con aiuto";s:9:"showmixed";s:16:"Visualizza misto";s:12:"showrequired";s:26:"Visualizza con obbligatori";s:14:"toggleviewinfo";s:63:"Attiva/disattiva la visualizzazione di questa istanza di modulo";}
