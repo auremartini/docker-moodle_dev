@@ -1,0 +1,36 @@
+version: "2"
+
+services:
+  db:
+    image: mariadb:10.4
+    container_name: db
+    environment:
+      - MARIADB_ROOT_PASSWORD=uTk79mgR6Up2
+      - MARIADB_USER=moodle-user
+      - MARIADB_PASSWORD=H463XYPpU0GG
+      - MARIADB_DATABASE=moodle
+      - MARIADB_CHARACTER_SET=utf8mb4
+      - MARIADB_COLLATE=utf8mb4_unicode_ci
+    restart: unless-stopped
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --skip-character-set-client-handshake
+    networks:
+      - net
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    depends_on:
+      db:
+        condition: service_started
+    ports:
+      - 7777:8080
+    networks:
+      - net
+
+networks:
+  net:
+    driver: bridge
