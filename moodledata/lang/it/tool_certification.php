@@ -313,7 +313,7 @@ Congratulazioni per l\'ottenimento della certificazione \'{$a->certificationname
 {$a->sitename}<br />
 {$a->siteurl}';
 $string['notificationcertificationcompletedprogram'] = 'Gentile {$a->userfullname},<br /><br />
-Congratulazioni per aver completato il programma {$a->programname}\'. Sei ora certificato in \'{$a->certificationname}\'!<br /><br />
+Congratulazioni per aver completato il programma \'{$a->programname}\'. Sei ora certificato in \'{$a->certificationname}\'!<br /><br />
 E\' possibile visitare nuovamente i corsi del programma in qualsiasi momento. L\'intero programma è pagina \'La mia formazione\'.<br /><br />
 {$a->expirymessage}
 {$a->sitename}<br />
