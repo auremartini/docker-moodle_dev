@@ -6,7 +6,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'db';
+$CFG->dbhost    = 'moodle_docker-db';
 $CFG->dbname    = 'moodle';
 $CFG->dbuser    = 'moodle-user';
 $CFG->dbpass    = 'H463XYPpU0GG';

@@ -53,7 +53,7 @@ $string['appointmentmode_help'] = '<p>Ci sono modalità in cui gli appuntamenti 
 </ul>
 </p>';
 $string['appointmentno'] = 'Appuntamento {$a}';
-$string['appointmentnote'] = 'Note per l\'ppuntamento (visibile allo studente)';
+$string['appointmentnote'] = 'Note per l\'appuntamento (visibile allo studente)';
 $string['appointments'] = 'Appuntamenti';
 $string['appointmentsgrouped'] = 'Appuntamenti raggruppati per fascia oraria';
 $string['appointmentsummary'] = 'Appuntamento il {$a->startdate} dalle {$a->starttime} alle {$a->endtime} con il {$a->teacher}';
@@ -319,7 +319,7 @@ $string['introduction'] = 'Introduzione';
 $string['isnonexclusive'] = 'Non esclusivo';
 $string['landscape'] = 'Orizzontale';
 $string['lengthbreakdown'] = 'Per durata fascia oraria';
-$string['limited'] = 'Limitata ({$a} sinistra)';
+$string['limited'] = 'Limitata ({$a} rimanenti)';
 $string['location'] = 'Luogo';
 $string['location_help'] = 'Scrivere la posizione dove si svolgerà l\'appuntamento.';
 $string['markasseennow'] = 'Aggiungi \'Ora\' la prenotazione ed imposta come \'Visto\\';
@@ -366,6 +366,7 @@ $string['myself'] = 'Me stesso';
 $string['name'] = 'Nome agenda';
 $string['needteachers'] = 'Impossibile aggiungere fasce orarie se non ci sono docenti';
 $string['negativerange'] = 'Non può esserci una differenza negativa';
+$string['negativetimerange'] = 'L\'orario di fine deve essere successivo a quello di inizio.';
 $string['never'] = 'Mai';
 $string['nfiles'] = '{$a} file';
 $string['noappointments'] = 'Nessun appuntamento';
