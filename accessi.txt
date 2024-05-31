@@ -1,5 +1,0 @@
-Moodle
-------
-
-user: admin
-password: BCmQaya6FHabQr-

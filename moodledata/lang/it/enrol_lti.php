@@ -35,10 +35,6 @@ $string['addtogradebook'] = 'Aggiungi al registro delle valutazioni';
 $string['allowframeembedding'] = 'Nota: si raccomanda l\'abilitazione di \'Consenti l\'embed in frame\', in questo modo il tool sarà visualizzato in un frame invece che in una nuova finestra.';
 $string['authltimustbeenabled'] = 'Nota: questo plugin richiede l\'abilitazione del plugin di autenticazione LTI.';
 $string['cartridgeurl'] = 'URL cartridge';
-$string['cookiesarerequired'] = 'I cookie sono bloccati dal browser';
-$string['cookiesarerequiredinfo'] = 'Non è possibile avviare questo tool perché sembra che il browser stia bloccando i cookie di terze parti.
-<br><br>
-Per utilizzare questo tool , provare a modificare le impostazioni dei cookie del browser o a utilizzare un browser diverso.';
 $string['copiedtoclipboard'] = '{$a} è stato copiato nella clipboard';
 $string['copytoclipboard'] = 'Copia nella clipboard';
 $string['couldnotestablishproxy'] = 'Non è stato possibile stabilire un proxy con il consumer.';

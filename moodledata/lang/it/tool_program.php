@@ -344,7 +344,7 @@ $string['notcompleted'] = 'Non completato';
 $string['notenrolledprograms_mobile'] = 'Non sei iscritto a nessun programma';
 $string['notificationduedate'] = 'Il programma ha come data limite di svolgimento il {$a}<br /><br />';
 $string['notificationprogramcompleted'] = 'Gentile {$a->userfullname},<br /><br />
-complimenti per aver completato il programma \'{$a->programname}\'!<br /><br />
+complimenti per aver completato il programma\'{$a->programname}\'!<br /><br />
 Se lo desideri, puoi rivedere il programma quando vuoi. Troverai il programma nella pagina \'I Miei corsi\'.<br /><br />
 {$a->sitename}<br />
 {$a->siteurl}';

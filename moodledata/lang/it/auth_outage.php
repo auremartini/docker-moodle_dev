@@ -80,20 +80,21 @@ $string['configurationwarning'] = 'Il plugin Outage non è configurato correttam
 $string['datetimeformat'] = '%a %d %h %Y at %I:%M%P %Z';
 $string['defaultdescription'] = 'Descrizione';
 $string['defaultdescriptiondescription'] = 'Messaggio di avviso predefinito per le interruzioni. Utilizzare i segnaposto {{start}} e {{stop}} come richiesto.';
-$string['defaultdescriptionvalue'] = 'È in corso una manutenzione programmata da {{start}} a {{stop}} e il nostro sistema non sarà disponibile durante questo periodo.';
+$string['defaultdescriptionvalue'] = 'È in corso una manutenzione programmata da {{inizio}} a {{arresto}} e il nostro sistema non sarà disponibile durante questo periodo.';
 $string['defaultlayoutcss'] = 'Layout CSS';
 $string['defaultlayoutcssdescription'] = 'Questo codice CSS può essere utilizzato per sovrascrivere il CSS della barra di avviso di interruzione.';
 $string['defaultoutageautostart'] = 'Avvio automatico dell\'interruzione';
-$string['defaultoutageautostartdescription'] = 'Definisce se l\'interruzione deve attivare automaticamente la modalità di manutenzione, bloccando l\'intero sito.';
+$string['defaultoutageautostartdescription'] = 'Se l\'interruzione deve attivare automaticamente la modalità di manutenzione una volta iniziata, bloccando l\'intero sito.';
 $string['defaultoutageduration'] = 'Durata dell\'interruzione';
 $string['defaultoutagedurationdescription'] = 'Durata predefinita (in minuti) di un\'interruzione.';
-$string['defaulttime'] = 'Orario predefinito';
-$string['defaulttimedescription'] = 'Orario predefinito per la prossima interruzione, espresso in linguaggio naturale, ad esempio "giovedì prossimo alle 19:00". Vedi <a target=_blank href="https://www.php.net/manual/en/datetime.formats.php#datetime.formats.relative">PHP relative dates</a>';
+$string['defaulttime'] = 'Tempo predefinito';
+$string['defaulttimedescription'] = 'L\'orario predefinito per la prossima interruzione, espresso in linguaggio naturale.
+linguaggio naturale, ad esempio "giovedì prossimo alle 19:00". Vedi <a target=_blank href="https://www.php.net/manual/en/datetime.formats.php#datetime.formats.relative">PHP relative dates</a>';
 $string['defaulttitle'] = 'Titolo';
 $string['defaulttitledescription'] = 'Titolo predefinito per le interruzioni. Utilizzare i segnaposto {{start}} e {{stop}} come richiesto.';
-$string['defaulttitlevalue'] = 'Sistema disattivato da {{start}} per {{duration}}.';
+$string['defaulttitlevalue'] = 'Sistema disattivato da {{avvio}} per {{durata}}.';
 $string['defaultwarningduration'] = 'Durata dell\'avviso';
-$string['defaultwarningdurationdescription'] = 'Tempo di preavviso predefinito per le interruzioni.';
+$string['defaultwarningdurationdescription'] = 'Tempo di preavviso predefinito (in minuti) per le interruzioni.';
 $string['description'] = 'Descrizione pubblica';
 $string['description_help'] = 'Una descrizione completa dell\'interruzione, visibile pubblicamente da tutti gli utenti.';
 $string['finish'] = 'Terminare';

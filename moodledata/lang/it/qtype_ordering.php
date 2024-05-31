@@ -25,14 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['horizontal'] = 'Orizzontale';
-$string['numberingstyle123'] = '1., 2., 3., ...';
-$string['numberingstyleABCD'] = 'A., B., C., ...';
-$string['numberingstyleIIII'] = 'I., II., III., ...';
-$string['numberingstyle_desc'] = 'Lo stile di numerazione di default.';
-$string['numberingstyle_help'] = 'Selezionare lo stile di numerazione per gli elementi trascinabili in questa domanda.';
-$string['numberingstyleabc'] = 'a., b., c., ...';
-$string['numberingstyleiii'] = 'a., b., c., ...';
-$string['numberingstylenone'] = 'Nessuna numerazione';
-$string['pluginname'] = 'Ordinamento';
 $string['pluginname_link'] = 'question/type/ordering';

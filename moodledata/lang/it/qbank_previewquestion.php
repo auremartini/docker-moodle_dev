@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alwayslatest'] = 'Sempre la più recente';
+$string['alwayslatest'] = 'Sempre l\'ultima';
 $string['pluginname'] = 'Anteprima domanda';
 $string['previewoptions'] = 'Opzioni anteprima';
 $string['questionversion'] = 'Versione della domanda';
@@ -33,4 +33,4 @@ $string['restartnow'] = 'Utilizza versione più recente';
 $string['tagclosebutton'] = 'Chiudi';
 $string['tagsnotfound'] = 'Tag non trovato';
 $string['versiontitle'] = 'Versione {$a}';
-$string['versiontitlelatest'] = 'Versione {$a} (più recente)';
+$string['versiontitlelatest'] = 'Versione {$a} (ultima)';
