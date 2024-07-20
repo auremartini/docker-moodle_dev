@@ -1,0 +1,1 @@
+s:287:"<strong>Stack trace:</strong> <ul style="text-align:left;"><li>line 67 of /local/odysseus/classes/data/activity.php: ParseError thrown</li><li>line ? of unknownfile: call to core_component::classloader()</li><li>line 34 of /local/odysseus/index.php: call to spl_autoload_call()</li></ul>";

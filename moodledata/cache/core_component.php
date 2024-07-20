@@ -582,6 +582,8 @@ $cache = array (
     ),
     'local' => 
     array (
+      'odysseus' => '/var/www/html/local/odysseus',
+      'totem' => '/var/www/html/local/totem',
     ),
     'h5plib' => 
     array (
@@ -3361,6 +3363,22 @@ $cache = array (
     'gradingform_rubric\\privacy\\provider' => '/var/www/html/grade/grading/form/rubric/classes/privacy/provider.php',
     'h5plib_v124\\local\\library\\handler' => '/var/www/html/h5p/h5plib/v124/classes/local/library/handler.php',
     'h5plib_v124\\privacy\\provider' => '/var/www/html/h5p/h5plib/v124/classes/privacy/provider.php',
+    'local_odysseus\\data\\activity' => '/var/www/html/local/odysseus/classes/data/activity.php',
+    'local_odysseus\\output\\renderer' => '/var/www/html/local/odysseus/classes/output/renderer.php',
+    'local_totem\\config_edit_form' => '/var/www/html/local/totem/classes/config_edit_form.php',
+    'local_totem\\datepicker_form' => '/var/www/html/local/totem/classes/datepicker_form.php',
+    'local_totem\\event_edit_form' => '/var/www/html/local/totem/classes/event_edit_form.php',
+    'local_totem\\filter_selection' => '/var/www/html/local/totem/classes/filter_selection.php',
+    'local_totem\\teachinglist' => '/var/www/html/local/totem/classes/teachinglist.php',
+    'local_totem\\totemtable' => '/var/www/html/local/totem/classes/totemtable.php',
+    'local_totem\\userlist' => '/var/www/html/local/totem/classes/userlist.php',
+    'local_totem_config_edit_form' => '/var/www/html/local/totem/classes/config_edit_form.php',
+    'local_totem_datepicker_form' => '/var/www/html/local/totem/classes/datepicker_form.php',
+    'local_totem_event_edit_form' => '/var/www/html/local/totem/classes/event_edit_form.php',
+    'local_totem_filter_selection' => '/var/www/html/local/totem/classes/filter_selection.php',
+    'local_totem_teachinglist' => '/var/www/html/local/totem/classes/teachinglist.php',
+    'local_totem_totemtable' => '/var/www/html/local/totem/classes/totemtable.php',
+    'local_totem_userlist' => '/var/www/html/local/totem/classes/userlist.php',
     'logstore_database\\helper' => '/var/www/html/admin/tool/log/store/database/classes/helper.php',
     'logstore_database\\log\\store' => '/var/www/html/admin/tool/log/store/database/classes/log/store.php',
     'logstore_database\\privacy\\provider' => '/var/www/html/admin/tool/log/store/database/classes/privacy/provider.php',
@@ -5773,6 +5791,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'totem' => '/var/www/html/local/totem/lib.php',
       ),
       'h5plib' => 
       array (
@@ -6145,6 +6164,7 @@ $cache = array (
       ),
       'local' => 
       array (
+        'totem' => '/var/www/html/local/totem/settings.php',
       ),
       'h5plib' => 
       array (
