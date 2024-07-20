@@ -1,0 +1,15 @@
+  moodle_docker-cron:
+    container_name: moodle_docker-cron
+    build:
+      context: Cron/
+      dockerfile: Cron.Dockerfile
+    volumes_from:
+      - moodle_docker-app
+    restart: always
+    volumes:
+      - ./log/cron:/var/log/cron
+    networks:
+      - moodle_docker_default
+    depends_on:
+      - moodle_docker-db
+      - moodle_docker-app

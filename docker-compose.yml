@@ -17,7 +17,7 @@ services:
       - --collation-server=utf8mb4_unicode_ci
       - --skip-character-set-client-handshake
     volumes:
-      - ./dbdata:/var/lib/mysql
+      - /volume1/docker/moodle-dev/dbdata:/var/lib/mysql
     networks:
       - moodle_docker_default
 
@@ -40,11 +40,11 @@ services:
     restart: always
     container_name: docker_moodle-app
     volumes:
-      - ./moodle:/var/www/html
-      - ./moodledata:/var/www/moodledata
-      - ../moodle-local_totem:/var/www/html/local/totem
-      - ../moodle-local_odysseus:/var/www/html/local/odysseus
-      - ./conf/local.ini:/usr/local/etc/php/php.ini
+      - /volume1/docker/moodle-dev/moodle:/var/www/html
+      - /volume1/docker/moodle-dev/moodledata:/var/www/moodledata:rw
+      - /volume1/docker/moodle-local_totem:/var/www/html/local/totem
+      - /volume1/docker/moodle-local_odysseus:/var/www/html/local/odysseus
+      - /volume1/docker/moodle-dev/conf/local.ini:/usr/local/etc/php/php.ini
     networks:
       - moodle_docker_default
     depends_on:
@@ -55,30 +55,16 @@ services:
     restart: always
     container_name: moodle_docker-web
     ports:
-      - 80:80
-      - 7770:8088
+      - 70:80
+      - 8088:8088
     volumes:
-      - ./conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /volume1/docker/moodle-dev/conf/nginx.conf:/etc/nginx/nginx.conf:ro
     volumes_from:
       - moodle_docker-app
     networks:
       - moodle_docker_default
 
-  moodle_docker-cron:
-    container_name: moodle_docker-cron
-    build:
-      context: Cron/
-      dockerfile: Cron.Dockerfile
-    volumes_from:
-      - moodle_docker-app
-    restart: always
-    volumes:
-      - ./log/cron:/var/log/cron
-    networks:
-      - moodle_docker_default
-    depends_on:
-      - moodle_docker-db
-      - moodle_docker-app
+
 
 networks:
   moodle_docker_default:
