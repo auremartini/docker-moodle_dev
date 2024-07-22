@@ -32,5 +32,6 @@ $string['cm_show_feedback'] = '{$a->name} è stata resa visibile.';
 $string['cm_stealth_feedback'] = '{$a->name} è ora disponibile ma non visibile nella pagina home del corso.';
 $string['courseindex'] = 'Indice del corso';
 $string['preference:coursesectionspreferences'] = 'Preferenze utente della sezione per il corso {$a}';
+$string['privacy:metadata:preference:coursesectionspreferences'] = 'Preferenza utente per la sezione, ad esempio compressa o espansa.';
 $string['section_hide_feedback'] = 'La sezione {$a->name} del corso è stata nascosta.';
 $string['section_show_feedback'] = 'La sezione {$a->name} del corso è stata resa visibile.';

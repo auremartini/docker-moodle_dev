@@ -32,6 +32,7 @@ $string['comment_added'] = 'L\'utente ID \'{$a->userid}\' ha aggiunto il comment
 a \'{$a->component}\' sulla domanda ID \'{$a->itemid}\'.';
 $string['comment_removed'] = 'L\'utente ID \'{$a->userid}\' ha eliminato il commento con ID \'{$a->objectid}\'
 a \'{$a->component}\' sulla domanda ID \'{$a->itemid}\'.';
+$string['commentdisabled'] = 'I commenti sono disabilitati su questo sito. Contattare l\'amministratore del sito.';
 $string['commentheader'] = 'Commenti della domanda';
 $string['commentplural'] = 'Commenti';
 $string['pluginname'] = 'Commenti della domanda';

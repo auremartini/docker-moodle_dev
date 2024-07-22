@@ -26,11 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alwayslatest'] = 'Sempre la più recente';
+$string['newerversion'] = 'Questa anteprima utilizza una versione precedente della domanda. {$a->restartbutton}';
 $string['pluginname'] = 'Anteprima domanda';
 $string['previewoptions'] = 'Opzioni anteprima';
+$string['privacy:metadata'] = 'Il plugin Anteprima del deposito delle domande non memorizza dati personali.';
 $string['questionversion'] = 'Versione della domanda';
 $string['restartnow'] = 'Utilizza versione più recente';
 $string['tagclosebutton'] = 'Chiudi';
+$string['tagerror'] = 'Non è stata trovata nessuna domanda con i seguenti tag: {$a}. Modificare o rimuovere il filtro dei tag.';
 $string['tagsnotfound'] = 'Tag non trovato';
 $string['versiontitle'] = 'Versione {$a}';
 $string['versiontitlelatest'] = 'Versione {$a} (più recente)';

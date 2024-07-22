@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['privacy:metadata:core_userkey'] = 'Token privato generato e memorizzato. È possibile usare il token per accedere ai file di Moodle senza che sia necessario effettuare il login.';
 $string['privacy:metadata:file_conversion:usermodified'] = 'Utente che ha avviato la conversione file';
+$string['privacy:metadata:file_conversions'] = 'Record delle conversioni di file eseguite da un utente.';
 $string['privacy:metadata:files'] = 'Un record dei file caricati o condivisi dagli utenti';
 $string['privacy:metadata:files:author'] = 'Autore del contenuto del file';
 $string['privacy:metadata:files:contenthash'] = 'Hash del contenuto del file';

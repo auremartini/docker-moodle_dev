@@ -30,3 +30,5 @@ $string['qbankcolumnname'] = '({$a})';
 $string['qbankcolumnsdisabled'] = 'Plugin del deposito delle domande che sono disabilitati:';
 $string['qbankcolumnsortorder'] = 'Ordinamento colonne';
 $string['qbankgotocolumnsort'] = 'Alla pagina {$a} è possibile modificare l\'ordine delle colonne del deposito delle domande.';
+$string['qbankgotomanageqbanks'] = 'È possibile rimuovere una colonna disabilitando il plugin in <a href=\'{$a}\'>Gestione deposito delle domande</a>.';
+$string['qbanksortdescription'] = 'L\'ordine dei plugin elencati di seguito determina l\'ordine delle colonne nel deposito delle domande.';

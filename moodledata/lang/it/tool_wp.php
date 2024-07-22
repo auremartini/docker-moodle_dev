@@ -318,6 +318,7 @@ $string['privacy:metadata:timecreated'] = 'Orario di creazione.';
 $string['privacy:metadata:timemodified'] = 'Orario di modifica.';
 $string['privacy:metadata:timerequested'] = 'Orario di richiesta del reset';
 $string['privacy:metadata:tool_wp_course_reset'] = 'Reset corso.';
+$string['privacy:metadata:userid'] = 'Utente al quale è stato reimpostato il corso.';
 $string['privacy:metadata:usermodified'] = 'Utente modificato';
 $string['privacy:metadata:userrequested'] = 'Utente che ha chiesto il reset del corso.';
 $string['privacy:metadata:wascompleted'] = 'Stato di completamento dell\'utente prima del reset del corso.';

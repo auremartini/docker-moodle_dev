@@ -36,5 +36,6 @@ $string['facility_index_help'] = 'L\'indice di semplicità indica il voto medio 
 $string['likely'] = 'Probabile';
 $string['na'] = 'N/D';
 $string['pluginname'] = 'Statistiche della domanda';
+$string['privacy:metadata'] = 'Il plugin Statistiche delle domande del deposito delle domande non memorizza dati personali.';
 $string['unlikely'] = 'Improbabile';
 $string['verylikely'] = 'Molto probabile';

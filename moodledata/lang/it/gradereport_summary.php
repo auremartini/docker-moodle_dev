@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Riassunto delle valutazioni';
+$string['summary:view'] = 'Visualizza il report riassuntivo delle valutazioni';

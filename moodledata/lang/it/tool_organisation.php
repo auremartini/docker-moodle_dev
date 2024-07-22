@@ -353,6 +353,11 @@ $string['ruleoutcomeassignjobstartruledate'] = 'Data di elaborazione della regol
 $string['ruleoutcomeassignjobstartuserdate'] = 'Data di creazione utente';
 $string['ruleoutcomedaybeforeruledate'] = 'Giorni antecedenti all\'elaborazione della regola';
 $string['ruleoutcomeendjobs'] = 'Termina tutte le mansioni';
+$string['ruleoutcomeendjobsdesc'] = 'Termina tutte le mansioni nel dipartimento \'{$a->department}\' e nella posizione \'{$a->position}\'<br />
+Includi sotto dipartimenti: \'{$a->includesubdepartments}\'<br />
+Includi sotto posizioni: \'{$a->includesubpositions}\'<br />
+Data di fine: \'{$a->enddate}\'<br />
+Obiettivo: \'{$a->obiettivo}\'';
 $string['ruleoutcomeruledate'] = 'Data di svolgimento della regola';
 $string['ruleoutcometarget'] = 'Obiettivo';
 $string['ruleoutcometarget_help'] = 'Termina tutte le mansioni o solo quelle ancora attive';

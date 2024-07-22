@@ -70,6 +70,7 @@ $string['archivedprograms'] = 'Programmi archiviati';
 $string['assfirstchildof'] = 'Come figlio di "{$a}"';
 $string['associatedcertification'] = 'Certificazione associata';
 $string['associatedcertifications'] = 'Certificazioni associate';
+$string['associatedcertificationswitheditlinks'] = 'Certificazioni associate con link di modifica';
 $string['associatedcertificationswithlinks'] = 'Certificazioni associate con collegamento';
 $string['atleast'] = 'Almeno';
 $string['autocreategroups'] = 'Aggiungi ai gruppi di corso';

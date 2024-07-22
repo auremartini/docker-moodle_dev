@@ -27,13 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['acessar'] = 'Accedi al corso';
 $string['background_color'] = 'Colore di sfondo';
-$string['background_color_black'] = 'Tema nero {$a}';
-$string['background_color_blue'] = 'Tema blu {$a}';
-$string['background_color_default'] = 'Tema predefinito {$a}';
 $string['background_color_desc'] = 'Colore di sfondo dell\'intestazione e del piè di pagina!';
-$string['background_color_green'] = 'Tema verde {$a}';
 $string['background_color_random'] = 'Tema casuale {$a}';
-$string['background_color_red'] = 'Tema rosso {$a}';
 $string['choosereadme'] = 'Boost Magnific è un tema realizzato con cura per portare colori vivaci a Moodle.';
 $string['contact_address'] = 'Indirizzo';
 $string['contact_email'] = 'Email';

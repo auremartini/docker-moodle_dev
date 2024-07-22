@@ -97,6 +97,7 @@ $string['convertnotpossibledesc'] = 'Non è stato possibile convertire automatic
 $string['convertocore'] = 'Converti all\'ultima versione';
 $string['course_completion_days_course'] = 'Giorni trascorsi sul corso';
 $string['course_completion_days_enrolled'] = 'Giorni di iscrizione';
+$string['course_completion_daysuntilcompletion'] = 'Giorni al completamento';
 $string['course_completion_progress'] = 'Avanzamento';
 $string['course_completion_progress_percent'] = 'Avanzamento (%)';
 $string['course_completion_reaggregate'] = 'Data e ora di riaggregazione';
