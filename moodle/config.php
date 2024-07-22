@@ -18,12 +18,11 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-//$CFG->wwwroot   = 'http://localhost:8088';
 $CFG->wwwroot   = 'http://192.168.1.109:8088';
 $CFG->dataroot  = '/var/www/moodledata';
 $CFG->admin     = 'admin';
 
-$CFG->directorypermissions = 0777;
+$CFG->directorypermissions = 02777;
 
 require_once(__DIR__ . '/lib/setup.php');
 
