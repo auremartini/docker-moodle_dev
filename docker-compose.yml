@@ -42,8 +42,6 @@ services:
     volumes:
       - /volume1/docker/moodle-dev/moodle:/var/www/html
       - /volume1/docker/moodle-dev/moodledata:/var/www/moodledata:rw
-      - /volume1/docker/moodle-local_totem:/var/www/html/local/totem
-      - /volume1/docker/moodle-local_odysseus:/var/www/html/local/odysseus
       - /volume1/docker/moodle-dev/conf/local.ini:/usr/local/etc/php/php.ini
     networks:
       - moodle_docker_default
@@ -74,8 +72,6 @@ services:
     restart: always
     volumes:
       - ./log/cron:/var/log/cron
-    volumes_from:
-      - moodle_docker-app
     networks:
       - moodle_docker_default
     depends_on:
