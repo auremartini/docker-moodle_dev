@@ -42,8 +42,6 @@ services:
     volumes:
       - ./moodle:/var/www/html
       - ./moodledata:/var/www/moodledata:rw
-      - ./../moodle-local_totem:/var/www/html/local/totem
-      - ./../moodle-local_odysseus:/var/www/html/local/odysseus
       - ./conf/local.ini:/usr/local/etc/php/php.ini
     networks:
       - moodle_docker_default
