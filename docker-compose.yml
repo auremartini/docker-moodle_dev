@@ -17,7 +17,7 @@ services:
       - --collation-server=utf8mb4_unicode_ci
       - --skip-character-set-client-handshake
     volumes:
-      - /volume1/docker/moodle-dev/dbdata:/var/lib/mysql
+      - ./dbdata:/var/lib/mysql
     networks:
       - moodle_docker_default
 
@@ -67,8 +67,6 @@ services:
     build:
       context: Cron/
       dockerfile: Cron.Dockerfile
-    volumes_from:
-      - moodle_docker-app
     restart: always
     volumes:
       - ./log/cron:/var/log/cron
